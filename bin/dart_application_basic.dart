@@ -22,5 +22,5 @@ int product(int a, int b){
 
 double chuyenDoiNhietDo(double doC){
   // tinh toan do F
-  return (doC * 9 / 5) + 32;
+  return (doC * 9 / 5) + 31;
 }
