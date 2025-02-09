@@ -1,10 +1,13 @@
 void main() {
-  int score = 85;
-  if (score >= 90) {
-    print("tam duoc");
-  } else if (score >= 60) {
-    print("ngu");
-  } else {
-    print("bo hoc di con");
+  String day = "monday";
+  switch (day) {
+    case "monday":
+      print("hom nay la thu 2");
+      break;
+    case "tuesday":
+      print("hom nay thu 3");
+      break;
+    default:
+      print("mot ngay khac");
   }
 }
