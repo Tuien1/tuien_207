@@ -1,13 +1,12 @@
+import 'dart:io';
+
 void main() {
-  String day = "monday";
-  switch (day) {
-    case "monday":
-      print("hom nay la thu 2");
-      break;
-    case "tuesday":
-      print("hom nay thu 3");
-      break;
-    default:
-      print("mot ngay khac");
+  List ths = [];
+  print("nhập tên của bạn");
+  String? name = stdin.readLineSync();
+  if (name != null&&name.isNotEmpty ) {
+    print("chào $name");
+  } else {
+    print("bạn chưa nhập gì cả");
   }
 }
